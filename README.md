@@ -1,4 +1,4 @@
-Introduction
+
 This repository contains the implementation and results of experiments conducted using three popular types of generative models: Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and Denoising Diffusion Probabilistic Models (DDPM). These models have been utilized to generate synthetic images based on a dataset of animal images.
 
 Experiments
@@ -22,6 +22,7 @@ Results: Using more timesteps generally led to better generation quality, highli
 
 
 Key Observations
+
 VAE: Provides a good balance between performance and computational efficiency. The ability to encode and decode images efficiently makes VAEs suitable for tasks where model interpretability and intermediate representations are beneficial.
 GAN: While capable of generating high-quality images, GANs require careful tuning of training dynamics to avoid common pitfalls like mode collapse and discriminator overpowering.
 DDPM: Exhibits excellent potential in generating detailed images but at a higher computational and time cost. Optimal performance is achieved with a higher number of timesteps.
